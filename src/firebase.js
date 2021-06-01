@@ -10,8 +10,6 @@ const firebaseConfig = {
     appId: "1:721742920723:web:3fb53146e6b698112053e6"
 };
 
-
-
 // Initialize Firebase
 const fb = firebase.initializeApp(firebaseConfig);
 export const db = fb.firestore();
