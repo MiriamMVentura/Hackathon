@@ -10,6 +10,7 @@ import DateFnsUtils from '@date-io/date-fns';
 import Block from './components/Block';
 import Register from './components/Register.jsx';
 import Confirm from './components/Confirm.jsx';
+import Assistant from './components/Assistant';
 
 import './App.css';
 //import AccessAlarmIcon from '@material-ui/icons/AccessAlarm';
@@ -30,6 +31,9 @@ function App() {
           </Route>
           <Route path="/confirmation">
             <Confirm/>
+          </Route>
+          <Route path="/assistant">
+            <Assistant/>
           </Route>
         </Switch>
       </div>
